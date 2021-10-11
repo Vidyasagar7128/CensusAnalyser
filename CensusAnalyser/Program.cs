@@ -6,7 +6,9 @@ namespace CensusAnalyser
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Wel Come to Census Analyser!");
+            Console.WriteLine("Census Analyser!");
+            CensusAnalyser censusAnalyser = new CensusAnalyser();
+            censusAnalyser.ShowCensus();
         }
     }
 }
