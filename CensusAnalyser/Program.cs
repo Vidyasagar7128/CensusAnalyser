@@ -7,7 +7,7 @@ namespace CensusAnalyser
         static void Main(string[] args)
         {
             Console.WriteLine("Census Analyser!");
-            CensusAnalyser censusAnalyser = new CensusAnalyser();
+            CensusAnalyserFactory censusAnalyser = new CensusAnalyserFactory();
             censusAnalyser.ShowCensus();
         }
     }
